@@ -37,7 +37,7 @@
                 $('#loading').show();
 
                 $.ajax({
-                    url: 'vdsdisp1.php',
+                    url: 'fetch.php',
                     type: 'GET',
                     data: { offset: offset },
                     success: function(response) {

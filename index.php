@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>world's new video search engine developed by the world king universal horse star ravindar reddy yampalla</title>
+  	<title>
+	world's new video search engine developed 
+	
+	by the world king universal horse star ravindar reddy yampalla
+	</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -452,6 +456,10 @@ VIDEO-PAGE <i class="fa fa-play-circle" style="font-size:24px;color:red"></i>
  </div>
     <div class="col-sm-8 p-3  text-white"> 
 	</div>
+	
+	
+	
+	
   </div>
 </div>
 
@@ -821,7 +829,7 @@ VIDEO-PAGE <i class="fa fa-play-circle" style="font-size:24px;color:red"></i>
 
 $(document).ready(function(){
  
- var limit = 7;
+ var limit = 3;
  var start = 0;
  var action = 'inactive';
  function load_country_data(limit, start)
@@ -841,7 +849,7 @@ $(document).ready(function(){
     }
     else
     {
-     $('#load_data_message').html("<button type='button' class='btn btn-warning'>Please Wait....</button>");
+   //  $('#load_data_message').html("<button type='button' class='btn btn-warning'>Please Wait....</button>");
      action = "inactive";
     }
    }

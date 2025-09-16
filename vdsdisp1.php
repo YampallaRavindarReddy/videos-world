@@ -18,7 +18,7 @@ $offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
 $limit = 90; // Number of items to load at a time (multiple of 3 for 3 tds per row)
 
 // Fetch data from your database
-$sql = "SELECT id,title, description FROM videos ";//LIMIT $limit OFFSET $offset";
+$sql = "SELECT id,title, description FROM videos limit 3 offset 1";//LIMIT $limit OFFSET $offset";
 $result = $conn->query($sql);
 
 $html = '';
@@ -32,9 +32,9 @@ if ($result->num_rows > 0) {
             }
             $html .= '<tr>';
         }
-        $html .= '<td>' . htmlspecialchars($row['id']) . '</td>';
-        $html .= '<td>' . htmlspecialchars($row['title']) . '</td>';
-        $html .= '<td>' . htmlspecialchars($row['description']) . '</td>';
+        $html .= '<td>' . ($row['id']) . '</td>';
+        $html .= '<td>' . ($row['title']) . '</td>';
+        $html .= '<td>' . ($row['description']) . '</td>';
         $counter++;
     }
     // Close the last row if it's not a multiple of 3
