@@ -125,46 +125,56 @@
 	          </li>
 			  	          <li>
 
-			  	              <a href="#" id='latest-world-news-video' >World News</a>
+			  	              <a href="#" id='latest-world-news-video' >WORLD NEWS</a>
+	          </li>
+			  			  	          <li>
+									  			  	              <a href="#" id='latest-world-news-video' >TRENDING NEWS</a>
+																  	          </li>
+
+
+
+			  <li>
+
+			  	              <a href="#" id='latest-movies-news-video' >MOVIES</a>
 	          </li>
 			  <li>
 
-			  	              <a href="#" id='latest-movies-news-video' >movies</a>
+			  	              <a href="#" id='latest-sports-news-video' >SPORTS</a>
 	          </li>
 			  <li>
 
-			  	              <a href="#" id='latest-sports-news-video' >sports</a>
+			  	              <a href="#" id='latest-politics-news-video' >POLITICS</a>
 	          </li>
 			  <li>
 
-			  	              <a href="#" id='latest-politics-news-video' >politics</a>
-	          </li>
-			  <li>
-
-			  	              <a href="#" id='latest-celebrities-news-video' >celebrities</a>
+			  	              <a href="#" id='latest-celebrities-news-video' >CELEBRITIES</a>
 	          </li>
 			   <li>
 
-			  	              <a href="#" id='latest-games-news-video' >games</a>
+			  	              <a href="#" id='latest-games-news-video' >GAMES</a>
 	          </li>
 			  <li>
 
-			  	              <a href="#" id='latest-business-news-video' >business news</a>
+			  	              <a href="#" id='latest-business-news-video' >BUSINESS NEWS</a>
 	          </li>
 			  <li>
 
-			  	              <a href="#" id='latest-local-news-video' >local News</a>
+			  	              <a href="#" id='latest-local-news-video' >LOCAL NEWS</a>
 	          </li>
 
 	          <li>
-	              <a href="#" id='about' >About</a>
+	              <a href="#" id='about' >ABOUT</a>
 	          </li>
 	          
 	          <li>
-              <a  style='color:red' href="#">UPLOAD</a>
+              <a  style='color:RED' href="#">UPLOAD</a>
 	          </li>
 	          <li>
-              <a href="#">Logout</a>
+			                <a  style='color:GREEN' href="#"><b>LOGOUT
+														</b>
+
+							</a>
+
 	          </li>
 	        </ul>
 

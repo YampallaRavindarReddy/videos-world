@@ -1,0 +1,3 @@
+$ composer install
+composer require php-ffmpeg/php-ffmpeg
+https://github.com/PHP-FFMpeg/PHP-FFMpeg
